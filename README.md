@@ -30,7 +30,7 @@ Used DAX functions for:
   - **Avg_Wait_Time = AVERAGE('Hospital ER_Data'[Patient Waittime])**
 - **Patient Satisfaction Score:**
   - **Avg_Satisfaction = AVERAGE('Hospital ER_Data'[Patient Satisfaction])**
-- ** % Patients Seen Within 30 Mins:**
+- **% Patients Seen Within 30 Mins:**
   - **Seen_Within_30Mins = DIVIDE(**
     - **COUNTROWS(FILTER('Hospital ER_Data', 'Hospital ER_Data'[Patient Waittime] <= 30)),**
     - **COUNTROWS('Hospital ER_Data'),**

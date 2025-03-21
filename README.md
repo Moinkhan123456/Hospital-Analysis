@@ -38,4 +38,39 @@ Used DAX functions for:
     - **)**
 - **Gender Distribution, Race Count, Referral Department Count using COUNTROWS and FILTER functions.**
 <br>
+
+**5.Data Visualization:**
+Created three primary views:
+
+**5.Monthly View:**
+- **KPIs:**
+    - **Total Patients**
+    - **Average Wait Time**
+    - **Satisfaction Score**
+    - **Number of Referrals**
+- **Trends:**
+    - **Line charts showing daily trends.**
+- **Bar Charts:**
+    - **Age Group distribution, Department referrals, Gender, Race.**
+- **Donut Charts:**
+    - **Admission Status, Patients seen within 30 mins.**
+- **Heatmap:**
+  - **Patients by Day & Hour (identifying peak hours & days).**
+
+**6.Consolidated View:**
+- **Similar to Monthly View but covers cumulative data over selected period.**
+- **Used Date Slicer to filter date range.**
+- **Aggregated numbers (Total Patients: 9216, Wait Time, Satisfaction Score).**
+
+**7.Patient Details View:**
+- **Detailed table:**
+   - **Patient ID, Name, Gender, Age, Admission Date, Race, Wait Time, Referral Department, Admission Status.**
+- **Scrollable, filterable table for granular analysis.**
+
+Dashboard Interaction <a href="https://github.com/Moinkhan123456/Hospital-Analysis/blob/main/Screenshot%20(12).png">View Dashboard of Monthly View</a>
+<br>
+Dashboard Interaction <a href="https://github.com/Moinkhan123456/Hospital-Analysis/blob/main/Screenshot%20(13).png">View Dashboard of Consolidate View</a>
+<br>
+Dashboard Interaction <a href="https://github.com/Moinkhan123456/Hospital-Analysis/blob/main/Screenshot%20(13).png">View Dashboard of Patient Details</a>
+<br>
 Analysis and create a dashboard report.

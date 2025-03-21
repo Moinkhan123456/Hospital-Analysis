@@ -26,16 +26,16 @@ Performed data cleaning tasks in Power Query Editor:
 
 **4.DAX Measures & Calculated Columns:**
 Used DAX functions for:
-    - **Average Wait Time:**
-          - **Avg_Wait_Time = AVERAGE('Hospital ER_Data'[Patient Waittime])**
-    - **Patient Satisfaction Score:**
-          - **Avg_Satisfaction = AVERAGE('Hospital ER_Data'[Patient Satisfaction])**
-    - ** % Patients Seen Within 30 Mins:**
-          - **Seen_Within_30Mins = DIVIDE(**
-                  - **COUNTROWS(FILTER('Hospital ER_Data', 'Hospital ER_Data'[Patient Waittime] <= 30)),**
-                  - **COUNTROWS('Hospital ER_Data'),**
-                  - **0**
-          - **)**
-    - **Gender Distribution, Race Count, Referral Department Count using COUNTROWS and FILTER functions.**
-    <br>
+- **Average Wait Time:**
+  - **Avg_Wait_Time = AVERAGE('Hospital ER_Data'[Patient Waittime])**
+- **Patient Satisfaction Score:**
+  - **Avg_Satisfaction = AVERAGE('Hospital ER_Data'[Patient Satisfaction])**
+- ** % Patients Seen Within 30 Mins:**
+  - **Seen_Within_30Mins = DIVIDE(**
+    - **COUNTROWS(FILTER('Hospital ER_Data', 'Hospital ER_Data'[Patient Waittime] <= 30)),**
+    - **COUNTROWS('Hospital ER_Data'),**
+    - **0**
+    - **)**
+- **Gender Distribution, Race Count, Referral Department Count using COUNTROWS and FILTER functions.**
+<br>
 Analysis and create a dashboard report.

@@ -42,7 +42,7 @@ Used DAX functions for:
 **5.Data Visualization:**
 Created three primary views:
 
-**5.Monthly View:**
+- **Monthly View:**
 - **KPIs:**
     - **Total Patients**
     - **Average Wait Time**
@@ -71,6 +71,6 @@ Dashboard Interaction <a href="https://github.com/Moinkhan123456/Hospital-Analys
 <br>
 Dashboard Interaction <a href="https://github.com/Moinkhan123456/Hospital-Analysis/blob/main/Screenshot%20(13).png">View Dashboard of Consolidate View</a>
 <br>
-Dashboard Interaction <a href="https://github.com/Moinkhan123456/Hospital-Analysis/blob/main/Screenshot%20(13).png">View Dashboard of Patient Details</a>
+Dashboard Interaction <a href="https://github.com/Moinkhan123456/Hospital-Analysis/blob/main/Screenshot%20(14).png">View Dashboard of Patient Details</a>
 <br>
 Analysis and create a dashboard report.
